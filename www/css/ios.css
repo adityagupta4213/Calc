@@ -96,5 +96,12 @@ div {
     background-color: #F57A12;
     color: #fff;
 }
-
-
+.menu-icon{
+    display: block;
+    width:2rem;
+    height:0.25rem;
+    background-color: #fff;
+    border:1px solid white;
+    border-radius: 5px;
+    margin:0.3rem;
+}
