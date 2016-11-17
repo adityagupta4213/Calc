@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tekadept.cc-calc" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Calc</name>
+    <description>
+        A simple calculator
+    </description>
+    <author email="adityagupta4213@gmail.com" href="http://www.technicalism.wordpress.com/">
+      Aditya J Gupta
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
