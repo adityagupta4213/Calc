@@ -5,6 +5,7 @@ Calc is a simple aritmetic calculator made using PhoneGap.
 Currently two themes are also available (old-school iOS and Android material design theme).
 
 Changelog:
+
 0.0.2
 - Added two themes and ripple effect on key tap
 - Changed the side-nav width
