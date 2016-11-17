@@ -42,7 +42,7 @@ div {
     height: 75px;
     width: 98%;
     text-align: right;
-    background-color: #3cb6c4;
+    
     color: #fff;
     border: none;
     padding: 0;
@@ -81,8 +81,12 @@ div {
     background-color: #777;
     color: #fff;
 }
-.switch>label{
-    color:#fff;
-    font-size: 16px;
-    font-family: 'sans-serif';
+.menu-icon{
+    display: block;
+    width:2rem;
+    height:0.25rem;
+    background-color: #fff;
+    border:1px solid white;
+    border-radius: 5px;
+    margin:0.3rem;
 }
