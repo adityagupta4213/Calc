@@ -1,10 +1,11 @@
-/**
- * User: Troy
- * Date: 3/1/14
- * Time: 9:38 AM
- */
-
-
+$(document).ready(function(){
+   $('.button-collapse').sideNav({
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      width:240,
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
+ });
 var rnc = rnc || {};
 
 // Display in this case refers to the input type="text" above the buttons
@@ -149,7 +150,6 @@ rnc.Display = function () {
   };
 }();
 
-//(function (rnc, $) {
 rnc.calculator = function () {
   rnc.Display.init($("#displayPanel")[0]);
 
@@ -205,6 +205,3 @@ rnc.calculator = function () {
     return false;
   });
 }
-
-
-//}(rnc, jQuery));
