@@ -6,6 +6,10 @@ Currently two themes are also available (old-school iOS and Android material des
 
 Changelog:
 
+0.0.3
+- Added Pythagoras calculator (experimental feature)
+- Added Hamburger menu in About page
+
 0.0.2
 - Added two themes and ripple effect on key tap
 - Changed the side-nav width
