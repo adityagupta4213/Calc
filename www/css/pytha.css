@@ -1,0 +1,21 @@
+body {
+    background-color: #3cb6c4;
+    margin:0.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+form{
+    margin: 1rem;
+}
+.num-1,.num-2,.result{
+    border-bottom: 1px solid #efefef;
+}
+.menu-icon{
+    display: block;
+    width:2rem;
+    height:0.25rem;
+    background-color: #fff;
+    border:1px solid white;
+    border-radius: 5px;
+    margin:0.3rem;
+}
