@@ -6,6 +6,10 @@ Currently two themes are also available (old-school iOS and Android material des
 
 Changelog:
 
+0.1 (Alpha)
+- Added a Milk-white theme
+- Released for alpha testing
+
 0.0.4
 - Added a BMI calculator (experimental feature)
 
