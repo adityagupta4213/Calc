@@ -6,9 +6,9 @@ Currently two themes are also available (old-school iOS and Android material des
 
 Changelog:
 
-0.1 (Alpha)
+0.1 (Beta)
 - Added a Milk-white theme
-- Released for alpha testing
+- Released for beta testing
 
 0.0.4
 - Added a BMI calculator (experimental feature)
@@ -22,5 +22,5 @@ Changelog:
 - Changed the side-nav width
 - Added a menu icon to make the side-nav menu appear with a single tap
 
-0.0.1
+0.0.1 (Aplha)
 - First beta
