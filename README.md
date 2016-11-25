@@ -6,6 +6,9 @@ Currently two themes are also available (old-school iOS and Android material des
 
 Changelog:
 
+0.0.4
+- Added a BMI calculator (experimental feature)
+
 0.0.3
 - Added Pythagoras calculator (experimental feature)
 - Added Hamburger menu in About page

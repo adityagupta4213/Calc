@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+  <title>CC Calc</title>
+  <link rel="stylesheet" type="text/css" href="css/materialize.css">
+  <link rel="stylesheet" href="css/bmi.css">
+</head>
+<body>
+	<script>
+  	function bmi(form){
+  		height=parseFloat(form.height.value);
+  		weight=parseInt(form.weight.value);
+  		var heightSq;
+  		heightSq=height*height;
+  		form.result.value=weight/(heightSq);
+  		/*if (weight/(heightSq)<18.5){
+  			alert("You're underweight!");
+  		}
+  		if (weight/(heightSq)>18.5 && <24.9){
+  			alert("You've got the average weight. Good!");
+  		}
+  		if (weight/(heightSq)>25 && <29.9){
+  			alert("You're overweight! Burn some fat!");
+  		}
+  		if (weight/(heightSq)>30){
+  			alert("You're obese!");
+  		}*/
+  	}
+  </script>
+</head>
+<body style="font-size:16px;">
+	<ul id="slide-out" class="side-nav">
+		<li><a href="index.html">Return to Calc</a></li>
+	</ul>
+	<a href="#" data-activates="slide-out" class="button-collapse" style="">
+	<span class="menu-icon"></span>
+	<span class="menu-icon"></span>
+	<span class="menu-icon"></span>
+	</a>
+	<form>
+		<legend>Enter height (in metres)</legend>
+		<input type="text" name="height" class="num-1"></textarea>	
+		<legend>Enter weight (in kilograms)</legend>
+		<input type="text" name="weight" class="num-2"></textarea>	
+		<input type="button" class=" btn waves-effect waves-teal" id="calculate" onclick="bmi(this.form);return false;" value="Calculate">
+		<input type="text" name="result" class="result"></textarea>
+	</form>
+	<div class="rate-bmi" style="text-align:justify;">
+		<h5>Rate your BMI</h5>
+		<h6>Less than 18.5 - Underweight<br>18.5-24.9 - Normal<br>25-29.9 - Overweight<br>More than 30 - Obese</h6>
+	</div>
+	<script type="text/javascript" src="js/lib/jquery-2.0.3.min.js"></script>
+  	<script type="text/javascript" src="js/lib/materialize.js"></script>
+  	<script type="text/javascript" src="js/system/slide-out-menu.js"></script>
+</body>
